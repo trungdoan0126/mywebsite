@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style_.css" />
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .danhmuc h1 {
+      margin-top: 50px;
+      font-size: 28px;
+      letter-spacing: 1.4px;
+      color: #d3b673;
+      text-transform: uppercase;
+      font-family: BalooExtra;
+      margin-bottom: 32px;
+    }
+    #tongdanhmuc {
+      max-width: 1270px;
+      margin: 0 auto;
+      display: flex;
+      gap: 70px;
+    }
+
+    li {
+      list-style-type: none;
+    }
+    a {
+      text-decoration: none;
+    }
+    .thuonghieus {
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 2.56;
+      text-align: left;
+      color: #282828;
+      text-transform: uppercase;
+    }
+    .chuduoi h3 {
+      color: #333333;
+      font-size: 17px;
+      margin-bottom: 20px;
+      display: block;
+      height: 50px;
+      font-weight: 700;
+      /* line-height: 24px; */
+    }
+    .chuduoi p {
+      font-size: 18px;
+      font-weight: 300;
+      color: #4d4d4d;
+      margin-bottom: 16px;
+    }
+    .chuduoi {
+      padding: 15px;
+    }
+    .tin-tucs {
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-row-gap: 40px;
+    }
+    .xem-them {
+      margin-left: 13px;
+    }
+    .xem-them a {
+      border: 1px solid #d3b673;
+      color: #fff;
+      background: #d3b673;
+      padding: 8px 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      text-transform: uppercase;
+      font-size: 16px;
+      display: inline-block;
+    }
+    .xem-them a:hover {
+      border: 1px solid #f2f2f2;
+      color: #000;
+      background-color: azure;
+    }
+
+  </style>
+  <body>
+    <div class="header">
+      <div class="content-header">
+        <img
+          class="logo"
+          src="https://tocotocotea.com/wp-content/uploads/2021/04/Logo-ngang-01.png"
+          alt=""
+        />
+        <div class="left-header">
+          <h3 class="vi">VN</h3>
+          <h3>|</h3>
+          <h3 href="dangnhap.css" style="padding-left: 10px">Đăng Nhập</h3>
+        </div>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="ASM_.html">trang chủ</a></li>
+          <li><a href="GioiThieu.html">giới thiệu</a></li>
+          <li>
+            <div class="dropdown">
+              <a href="ThucDon.html">thực đơn</a>
+              <div class="dropdown-content">
+                <a href="ThucDon.html">combo một người</a>
+                <a href="ThucDon.html">combo nhóm</a>
+                <a href="ThucDon.html">menu ưu đãi</a>
+                <a href="ThucDon.html">món lẻ</a>
+                <a href="ThucDon.html">thức uống</a>
+              </div>
+            </div>
+          </li>
+          <li><a href="NhuongQuyen.html">nhượng quyền</a></li>
+          <li><a href="TinTuc.html">tin tức</a></li>
+          
+        </ul>
+        <form action="">
+          <input type="text" required class="text" />
+          <input type="submit" value="Tìm kiếm" class="timkiem" />
+        </form>
+      </nav>
+    </div>
+
+    <div id="tongdanhmuc">
+      <div class="tin-tuc">
+        <div class="danhmuc">
+          <h1>Danh mục tin tức</h1>
+        </div>
+        <div class="thuonghieus">
+          <li>Câu chuyện thương hiệu</li>
+          <li>Tin tức khuyến mại</li>
+          <li>Sự kiện</li>
+        </div>
+      </div>
+
+      <div class="tin-tucs">
+        <div class="tongtototo">
+          <div class="imgrs">
+            <img
+              src="https://tocotocotea.com/wp-content/uploads/2021/12/SPM_CHOCO_zalo-1.png"
+              width="386px"
+              height="195px"
+            />
+          </div>
+          <div class="chuduoi" style="width: 413px">
+            <h3>
+              Cùng ToCoToCo nhân đôi sự ngọt ngào mùa lễ hội
+            </h3>
+            <p>
+              Theo suckhoedoisong.vn – Nhấn nhá chút vị đậm đà từ socola và hồng trà kết hợp hương thơm beo béo của macchiato kem cà phê thêm chút topping hạt ngũ […]
+            </p>
+          </div>
+          <div class="xem-them">
+            <a href="">Xem Thêm</a>
+          </div>
+        </div>
+        <div class="tongtototo">
+          <div class="imgrs">
+            <img
+              src="https://tocotocotea.com/wp-content/uploads/2022/01/Hinh-1.png"
+              width="386px"
+              height="195px"
+            />
+          </div>
+          <div class="chuduoi" style="width: 413px">
+            <h3>
+              ToCoToCo chúc mừng chủ nhân trúng giải <br />
+              thưởng iphone 13 Promax và hàng ngàn phần quà khủng
+            </h3>
+            <p>
+              Kết thúc sinh nhật lần thứ 8 của ToCoToCo trong hành trình “8 năm
+              gắn kết triệu trái tim”, sau những vòng quay của buổi livestream,
+              chủ nhân chiếc Iphone […]
+            </p>
+          </div>
+          <div class="xem-them">
+            <a href="">Xem Thêm</a>
+          </div>
+        </div>
+        <div class="tongtototo">
+          <div class="imgrs">
+            <img
+              src="https://tocotocotea.com/wp-content/uploads/2022/01/04012022_remind-combo-spm_zalo-1.png"
+              width="386px"
+              height="195px"
+            />
+          </div>
+          <div class="chuduoi" style="width: 413px">
+            <h3>
+              UỐNG ĐÃ THÈM SĂN DEAL ĐÃ ĐỜI
+            </h3>
+            <p>
+              Hồng trà ngũ cốc kem cà phê & Choco ngũ cốc kem cà phê,  đã tạo nên cơn sốt càn quét khắp ToCoToCo. Để tăng thêm độ […]
+            </p>
+          </div>
+          <div class="xem-them">
+            <a href="">Xem Thêm</a>
+          </div>
+        </div>
+        <div class="tongtototo">
+          <div class="imgrs">
+            <img
+              src="https://tocotocotea.com/wp-content/uploads/2021/03/image-54.webp"
+              width="386px"
+              height="195px"
+            />
+          </div>
+          <div class="chuduoi" style="width: 413px">
+            <h3>
+              Danh sách cửa hàng TOCOTOCO áp dụng Chương Trình Khuyến Mại
+            </h3>
+            <p>
+              DANH SÁCH CỬA HÀNG MIỀN BẮC STT CƠ SỞ CỬA HÀNG ĐỊA CHỈ QUẬN/TP 1 Big C Hồ Gươm ToCo – Big C Hồ Gươm Plaza Tầng 01 TTTM BigC […]
+            </p>
+          </div>
+          <div class="xem-them">
+            <a href="">Xem Thêm</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- foooter -->
+
+    <div class="row footer" style="margin-top:50px">
+      <div class="footer-content">
+          <div class="col-footer">
+              <p class="footer-info">Email: info@tocotocotea.com</p>
+              <p class="footer-info">SĐT: 1900.63.69.36</p>
+              <p class="footer-info">Địa chỉ: Tầng 2 tòa nhà T10 Times City Vĩnh Tuy, Hai Bà Trưng, Hà Nội.</p>
+          </div>
+          <div class="col-footer">
+              <p class="footer-info">Số ĐKKD: 0106341306</p>
+              <p class="footer-info">Ngày Cấp: 16/03/2017</p>
+              <p class="footer-info">Nơi cấp: Sở kế hoạch và Đầu tư Thành phố Hà Nội.</p>
+          </div>
+      </div>
+      <div class="footer-title">Trung Tocotoco</div>
+  </div>
+  </body>
+</html>
